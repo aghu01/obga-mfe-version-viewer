@@ -22,7 +22,7 @@ You can clone the repository using Git or download it as a ZIP file:
 #### Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/OBGA-MFE-Versions-Extension.git
+git clone https://github.com/aghu01/obga-mfe-version-viewer
 ```
 
 #### Download as ZIP
@@ -87,12 +87,6 @@ We welcome contributions from the team to improve this extension.
 
 - **Pull Requests**: If you have an enhancement or fix, create a pull request.
 - **Issues**: If you encounter any issues, please report them by opening an issue in the GitHub repository.
-
-## License
-
-This project is intended for **internal company use only**. Do not distribute or share outside the company.
-
----
 
 ### Screenshots
 <img width="322" alt="Screenshot 2024-10-05 at 15 37 39" src="https://github.com/user-attachments/assets/b9c54e0d-9eb2-4f00-b579-94cd55955aa5">
