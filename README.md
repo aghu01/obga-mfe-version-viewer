@@ -88,7 +88,10 @@ We welcome contributions from the team to improve this extension.
 - **Issues**: If you encounter any issues, please report them by opening an issue in the GitHub repository.
 
 ### Screenshots
-<img width="322" alt="Screenshot 2024-10-05 at 15 37 39" src="https://github.com/user-attachments/assets/b9c54e0d-9eb2-4f00-b579-94cd55955aa5">
-<img width="340" alt="Screenshot 2024-10-05 at 15 48 06" src="https://github.com/user-attachments/assets/5e76ac4b-2060-4165-9c35-edd3c0fd584a">
+
+![Screenshot 2024-12-16 at 00 00 41](https://github.com/user-attachments/assets/de6803b0-fa90-47f8-be1b-14586c248f30)
+![Screenshot 2024-12-16 at 00 00 55](https://github.com/user-attachments/assets/e6a366d7-3aaa-46cd-8d18-08c801d0750a)
+
+
 
 
