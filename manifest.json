@@ -1,12 +1,23 @@
 {
   "manifest_version": 3,
   "name": "OBGA-MFE Version Viewer",
-  "version": "1.0",
-  "description": "Shows the versions of the micro front-end application.",
+  "version": "1.2",
+  "description": "Shows the versions of the micro front-ends application.",
   "permissions": [
-    "activeTab",
-    "scripting"
+    "webRequest",
+    "scripting",
+    "activeTab"
   ],
+  "host_permissions": [
+    "https://www.test.betsson.com/*",
+    "https://www.qa.betsson.com/*",
+    "https://www.alpha.betsson.com/*",
+    "https://www.betsson.com/*"
+  ],
+  "background": {
+    "default_popup": "popup.html",
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -14,29 +25,5 @@
       "48": "icon.png",
       "128": "icon.png"
     }
-  },
-  "background": {
-    "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "content.js"
-      ],
-      "run_at": "document_idle"
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "inject.js"
-      ],
-      "matches": [
-        "<all_urls>"
-      ]
-    }
-  ]
+  }
 }
