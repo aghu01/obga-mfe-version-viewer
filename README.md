@@ -67,10 +67,9 @@ If you'd like to make changes to the extension, feel free to modify the code and
 ### File Structure
 
 - **manifest.json**: Describes the extension, including permissions and components used.
+- **background.js**: Contains the request to `betsson's` sites.
 - **popup.html**: Defines the HTML for the popup that appears when the extension icon is clicked.
 - **popup.js**: Contains the logic for handling the version data and updating the UI.
-- **content.js**: Executes in the context of the webpage to extract the version information.
-- **inject.js**: Injected script to access JavaScript variables directly from the page.
 - **icon.png**: The extension icon, used in various sizes (16x16, 48x48, 128x128).
 
 ### Running Locally
