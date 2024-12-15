@@ -1,33 +1,62 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>OBGA-MFEs Version Viewer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 10px;
-            width: 300px;
-        }
-
-        #version-list {
-            margin-top: 10px;
-        }
-
-        .version-item {
-            margin-bottom: 5px;
-        }
-
-        .version-name {
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBGA-MFEs Version Viewer 2.0</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    .data-table th,
+    .data-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    .data-table th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+    .data-table td {
+      font-size: 14px;
+    }
+    .data-table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .data-table tr:hover {
+      background-color: #f1f1f1;
+    }
+    .clear-cache-btn {
+      display: block;
+      padding: 5px 5px;
+      background-color: #ff6666;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .clear-cache-btn:hover {
+      background-color: #ff3333;
+    }
+  </style>
 </head>
-
 <body>
-    <h3>OBGA-MFEs Version Viewer</h3>
-    <div id="version-list">Loading...</div>
-    <script src="popup.js"></script>
+  <h3>OBGA-MFEs Version Viewer 2.0 </h3>
+  <div id="version-list">Loading...</div>
+  <button id="clear-cache" class="clear-cache-btn">Clear Cache</button>
+  <script src="popup.js"></script>
 </body>
-
 </html>
