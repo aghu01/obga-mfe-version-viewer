@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "OBGA-MFE Version Viewer",
-  "version": "1.2",
+  "version": "2.1",
   "description": "Shows the versions of the micro front-ends application.",
   "permissions": [
     "webRequest",
